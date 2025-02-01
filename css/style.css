@@ -52,10 +52,10 @@ div.blue{
     border-right: 5px solid #ffffff;
     border-bottom: 0;
     border-left: 0;
-}
-.blue h2, .blue p{
     color:#C4C4C4;
-
+}
+.blue h2{
+    color:#C4C4C4;
 }
 
 div.yellow{
@@ -66,12 +66,11 @@ div.yellow{
     border-left: 5px solid #ffffff;
     border-top: 0;
     border-right: 0;
-}
-.yellow p{
     color: #707070;
 }
+
 div.green{
-    background-color: #00D800;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-top: 2px solid #ffffff;
@@ -79,10 +78,14 @@ div.green{
     border-bottom: 0;
     border-left: 0;
 }
-footer{
-    background-image: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000 100%);
+footer {
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #0000ff 25%, #0066ff 70%, #020024 100%);
     border: 5px solid #ffffff;
+}
+
+footer p {
     font-size: 20px;
     text-align: right;
-    padding: 15px 15px 0px 15px;
+    padding: 15px 15px 15px 0px;
 }
